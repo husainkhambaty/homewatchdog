@@ -6,6 +6,17 @@ This is the initial work by Adrian and I will be extending on this by including 
 
 Yay Home Project!!!
 
+### Install Dependencies
+
+```python
+pip install dropbox
+pip install imutils
+pip install "picamera"
+```
+
+### Configuration
+
+Most options are configurable in the conf.json
 
 
 Credits: Adrian Rosebrock
