@@ -8,10 +8,19 @@ Yay Home Project!!!
 
 ### Install Dependencies
 
-```python
-pip install dropbox
-pip install imutils
-pip install "picamera"
+- Install Dropbox
+```sh
+$ pip install dropbox
+```
+
+Install Imaging Processing utilities
+```sh
+$ pip install imutils
+```
+
+Install PiCam libs
+```
+$ pip install "picamera"
 ```
 
 ### Configuration
@@ -22,7 +31,9 @@ Options are configurable in the `config.json` that need to be passed at runtime.
 
 Start the watchdog with the following command
 
-`python pi_surveillance.py --conf conf.json`
+```sh
+$ python pi_surveillance.py --conf conf.json
+```
 
 
 
