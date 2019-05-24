@@ -16,7 +16,14 @@ pip install "picamera"
 
 ### Configuration
 
-Most options are configurable in the conf.json
+Options are configurable in the `config.json` that need to be passed at runtime.
+
+### Execution
+
+Start the watchdog with the following command
+
+`python pi_surveillance.py --conf conf.json`
+
 
 
 Credits: Adrian Rosebrock
